@@ -6,7 +6,7 @@
 /*   By: mkadri <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/03 09:00:52 by mkadri            #+#    #+#             */
-/*   Updated: 2025/02/03 15:05:37 by mkadri           ###   ########.fr       */
+/*   Updated: 2025/05/14 18:36:43 by mkadri           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,7 @@ int	main(int ac, char** av) {
 
 	if (ac != 2) {
 		std::cerr << "Error: program must only take one string as an argument" << std::endl;
+		return (0);
 	}
 	
 	std::string			str = av[1];
